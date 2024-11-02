@@ -1,0 +1,62 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*  apply a natural box layout model to all elements  */
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+header {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px #000;
+    filter: drop-shadow(2px 5px 5px #000);
+    padding: 1rem;
+    background-image: url(https://t3.ftcdn.net/jpg/00/22/35/86/360_F_22358642_TlOPo0uu0tAb22YINFwY1UDKxFON8TFR.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    margin: 0;
+}
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+    margin: 2% auto;
+}
+
+#cards figure {
+    margin: 0 2%;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(5, 16, 119, 0.3);
+    text-align: center;
+    padding: 10px;
+
+}
+
+#cards img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+#cards p {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #b82c2c;
+    line-height: 1.4;
+    padding: 5px 0;
+}
+
+#cards figcaption {
+    font-size: 0.9em;
+    color: #555;
+}

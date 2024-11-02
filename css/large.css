@@ -1,0 +1,8 @@
+@media only screen and (min-width: 60rem) {
+
+    main {max-width: 64rem; margin: auto;}
+    #cards figure {
+        flex-basis: auto;
+    
+    }
+} /* end media query*/
